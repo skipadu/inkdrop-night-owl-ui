@@ -1,0 +1,29 @@
+{
+  "name": "night-owl-ui",
+  "description": "Night Owl UI Theme for Inkdrop",
+  "version": "1.0.0",
+  "theme": "ui",
+  "styleSheets": [
+    "theme.min.css"
+  ],
+  "scripts": {
+    "run": "gulp",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "inkdrop",
+    "markdown"
+  ],
+  "author": "Sami Korpela",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "semantic-ui": "^2.4.2"
+  },
+  "browserslist": [
+    "Electron 7.1.13"
+  ],
+  "engines": {
+    "inkdrop": "^4.x"
+  }
+}
