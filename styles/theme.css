@@ -1568,8 +1568,8 @@ input::selection {
   outline: none;
   border: none;
   vertical-align: baseline;
-  background: #25282a none;
-  color: #DDDDDD;
+  background: #15354b none;
+  color: #d4deec;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   margin: 0em 0.25em 0em 0em;
   padding: 0.78571429em 1.5em 0.78571429em;
@@ -1597,7 +1597,7 @@ input::selection {
 ---------------*/
 
 .ui.button:hover {
-  background-color: #292d30;
+  background-color: #1f3745;
   background-image: none;
   box-shadow: 0px 0px 0px 1px transparent inset, 0px 0em 0px 0px rgba(24, 26, 28, 0.45) inset;
   color: rgba(255, 255, 255, 0.8);
@@ -1612,7 +1612,7 @@ input::selection {
 ---------------*/
 
 .ui.button:focus {
-  background-color: #292d30;
+  background-color: #1f3745;
   color: rgba(255, 255, 255, 0.8);
   background-image: '' !important;
   box-shadow: '' !important;
@@ -2299,7 +2299,7 @@ input::selection {
 .ui.basic.buttons .button,
 .ui.basic.button {
   background: transparent none !important;
-  color: #DDDDDD !important;
+  color: #d4deec !important;
   font-weight: normal;
   border-radius: 0.28571429rem;
   text-transform: none;
@@ -3151,7 +3151,7 @@ input::selection {
 .ui.inverted.grey.buttons .button:active,
 .ui.inverted.grey.button:active {
   box-shadow: none !important;
-  color: #DDDDDD;
+  color: #d4deec;
 }
 
 .ui.inverted.grey.buttons .button:hover,
@@ -4609,7 +4609,7 @@ input::selection {
 .ui.inverted.teal.buttons .button:active,
 .ui.inverted.teal.button:active {
   box-shadow: none !important;
-  color: #DDDDDD;
+  color: #d4deec;
 }
 
 .ui.inverted.teal.buttons .button:hover,
@@ -4771,7 +4771,7 @@ input::selection {
 .ui.inverted.olive.buttons .button:active,
 .ui.inverted.olive.button:active {
   box-shadow: none !important;
-  color: #DDDDDD;
+  color: #d4deec;
 }
 
 .ui.inverted.olive.buttons .button:hover,
@@ -4933,7 +4933,7 @@ input::selection {
 .ui.inverted.yellow.buttons .button:active,
 .ui.inverted.yellow.button:active {
   box-shadow: none !important;
-  color: #DDDDDD;
+  color: #d4deec;
 }
 
 .ui.inverted.yellow.buttons .button:hover,
@@ -5591,7 +5591,7 @@ input::selection {
 
 .ui.basic.inverted.buttons .button,
 .ui.basic.inverted.button {
-  color: #DDDDDD !important;
+  color: #d4deec !important;
 }
 
 .ui.basic.inverted.buttons .button:hover,

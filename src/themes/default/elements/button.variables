@@ -9,7 +9,7 @@
 /* Button */
 @verticalMargin: 0em;
 @horizontalMargin: 0.25em;
-@backgroundColor: darken(@white, 4);
+@backgroundColor: @nowl-blue-dark-1;
 @backgroundImage: none;
 @background: @backgroundColor @backgroundImage;
 @lineHeight: 1em;
@@ -23,7 +23,7 @@
 @tapColor: transparent;
 @fontFamily: @pageFont;
 @fontWeight: @bold;
-@textColor: #DDDDDD;
+@textColor: @nowl-foreground;
 @textShadow: none;
 @invertedTextShadow: @textShadow;
 @borderRadius: @defaultBorderRadius;
@@ -84,7 +84,7 @@
 --------------------*/
 
 /* Hovered */
-@hoverBackgroundColor: darken(@white, 2);
+@hoverBackgroundColor: @nowl-blue-gray-2;
 @hoverBackgroundImage: @backgroundImage;
 @hoverBoxShadow: @boxShadow;
 @hoverColor: @hoveredTextColor;
