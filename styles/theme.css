@@ -1530,16 +1530,16 @@ input::selection {
   /*-------------------
         Preferences
   --------------------*/
-  --preferences-sidebar-background: #2E3235;
-  --preferences-sidebar-item-active-background: rgba(192, 109, 54, 0.2);
-  --preferences-view-background: #34393D;
+  --preferences-sidebar-background: #001628;
+  --preferences-sidebar-item-active-background: #001220;
+  --preferences-view-background: #001628;
   /*-------------------
         Task Icons
   --------------------*/
-  --task-icon-active: darkgray;
-  --task-icon-onhold: orange;
-  --task-icon-completed: limegreen;
-  --task-icon-dropped: lightcoral;
+  --task-icon-active: #d4deec;
+  --task-icon-onhold: #ff8663;
+  --task-icon-completed: #9fde52;
+  --task-icon-dropped: #ff7d99;
   /*-------------------
     Task Progress View
   --------------------*/

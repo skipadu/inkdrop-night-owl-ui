@@ -70,17 +70,17 @@
 /*-------------------
       Preferences
 --------------------*/
-@preferencesSidebarBackground: @white;
-@preferencesSidebarItemActiveBackground: rgba(192, 109, 54, 0.2);
-@preferencesViewBackground: @offWhite;
+@preferencesSidebarBackground: @nowl-background;
+@preferencesSidebarItemActiveBackground: @nowl-darkest;
+@preferencesViewBackground: @nowl-background;
 
 /*-------------------
       Task Icons
 --------------------*/
-@taskIconActive: darkgray;
-@taskIconOnHold: orange;
-@taskIconCompleted: limegreen;
-@taskIconDropped: lightcoral;
+@taskIconActive: @nowl-foreground;
+@taskIconOnHold: @nowl-orange;
+@taskIconCompleted: @nowl-green;
+@taskIconDropped: @nowl-crimson;
 
 /*-------------------
   Task Progress View
