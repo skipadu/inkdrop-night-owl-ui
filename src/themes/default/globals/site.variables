@@ -121,11 +121,11 @@
         Page
 --------------------*/
 
-@pageBackground      : #001628;
+@pageBackground      : @nowl-background;
 @pageOverflowX       : hidden;
 
 @lineHeight          : 1.4285em;
-@textColor           : #DDDDDD;
+@textColor           : @nowl-foreground;
 
 /*-------------------
       Paragraph

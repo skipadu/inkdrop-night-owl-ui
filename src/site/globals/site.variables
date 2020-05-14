@@ -7,8 +7,8 @@
 @importGoogleFonts : false;
 @useCustomScrollbars: false;
 
-@primaryColor: #C06D36;
-@primaryColorFocus: #C06D36;
+@primaryColor: @nowl-blue-light-1;
+@primaryColorFocus: @nowl-blue-light-2;
 @linkHoverColor: @primaryColor;
 
 
@@ -21,7 +21,7 @@
 @sidebarMenuItemColor  : @textColor;
 @sidebarMenuActionColor : @lightTextColor;
 @sidebarMenuActionHoverColor : @primaryColorFocus;
-@sidebarSyncStatusViewBackground: #26292C;
+@sidebarSyncStatusViewBackground: @nowl-darkest;
 @sidebarSyncStatusViewTextColor: @textColor;
 @sidebarSyncStatusViewDetailColor: @lightTextColor;
 @sidebarScrollbarWidth: 6px;
@@ -38,7 +38,7 @@
 /*-------------------
       Note List Bar
 --------------------*/
-@noteListBarBackground: #34393D;
+@noteListBarBackground: @nowl-background;
 @noteListBarPinnedSectionHeaderBackground: rgba(255, 255, 255, 0.05);
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
@@ -46,7 +46,7 @@
 @noteListViewItemSeparatorBorder: 1px solid @white;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
-@noteListViewItemActiveBackground: @primaryColor;
+@noteListViewItemActiveBackground: @nowl-blue-dark-1;
 @noteListViewItemActiveColor: @textColor;
 @noteListViewItemActiveDateColor: @textColor;
 @noteListViewItemActiveTagColor: @textColor;
