@@ -468,7 +468,7 @@
 
 @circularRadius                : 500rem;
 
-@borderColor               : rgba(24, 26, 28, 0.45);
+@borderColor               : @nowl-blue-gray-2;
 @strongBorderColor         : rgba(24, 26, 28, 0.22);
 @internalBorderColor       : rgba(24, 26, 28, 0.1);
 @selectedBorderColor       : rgba(24, 26, 28, 0.35);
