@@ -43,7 +43,7 @@
 @noteListBarPinnedSectionHeaderBorderBottom: 1px solid rgba(255, 255, 255, 0.1);
 @noteListBarPinnedSectionFooterBorderBottom: 4px solid rgba(255, 255, 255, 0.2);
 @noteListViewItemColor: @mutedTextColor;
-@noteListViewItemSeparatorBorder: 1px solid @white;
+@noteListViewItemSeparatorBorder: 1px solid @nowl-blue-dark-2;
 @noteListViewItemDateColor: @primaryColor;
 @noteListViewItemTagColor: @primaryColor;
 @noteListViewItemActiveBackground: @nowl-blue-dark-1;
@@ -53,8 +53,8 @@
 @noteListViewItemFocusInnerShadow: inset 0 0 4px rgba(0,0,0,0.8);
 @noteSearchBarBackground: @noteListBarBackground;
 @noteSearchBarBorderBottom: 1px solid @white;
-@noteSearchBarInputBorder: none;
-@noteSearchBarInputBackground: @inputBackground;
+@noteSearchBarInputBorder: 1px solid @nowl-blue-gray-1;
+@noteSearchBarInputBackground: @nowl-background;
 
 /*-------------------
       Header Note Menu

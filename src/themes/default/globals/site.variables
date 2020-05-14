@@ -75,7 +75,7 @@
 ---------------*/
 
 /* This adjusts the default form input across all elements */
-@inputBackground        : @white;
+@inputBackground        : @nowl-background;
 @inputVerticalPadding   : @relative11px;
 @inputHorizontalPadding : @relative14px;
 @inputPadding           : @inputVerticalPadding @inputHorizontalPadding;
@@ -93,7 +93,7 @@
 --------------------*/
 
 /* Used on inputs, textarea etc */
-@focusedFormBorderColor: #85B7D9;
+@focusedFormBorderColor: @nowl-blue-gray-1;
 
 /* Used on dropdowns, other larger blocks */
 @focusedFormMutedBorderColor: #96C8DA;
@@ -430,9 +430,9 @@
      Neutral Text
 --------------------*/
 
-@darkTextColor               : rgba(255, 255, 255, 0.95);
-@mutedTextColor              : rgba(255, 255, 255, 0.6);
-@lightTextColor              : rgba(255, 255, 255, 0.50);
+@darkTextColor               : @nowl-foreground;
+@mutedTextColor              : @nowl-blue-gray-1;
+@lightTextColor              : @nowl-blue-gray-3;
 
 @unselectedTextColor         : rgba(255, 255, 255, 0.4);
 @hoveredTextColor            : rgba(255, 255, 255, 0.8);
