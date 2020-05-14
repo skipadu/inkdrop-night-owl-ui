@@ -1,7 +1,7 @@
 {
   "name": "night-owl-ui",
   "description": "Night Owl UI Theme for Inkdrop",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "theme": "ui",
   "styleSheets": [
     "theme.min.css"
@@ -14,7 +14,10 @@
     "inkdrop",
     "markdown"
   ],
-  "author": "Sami Korpela",
+  "repository": "https://github.com/skipadu/inkdrop-night-owl-ui",
+  "author": {
+    "name": "Sami Korpela"
+  },
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",

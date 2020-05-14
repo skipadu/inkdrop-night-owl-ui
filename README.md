@@ -1,29 +1,13 @@
 # Night Owl'ish UI Theme for Inkdrop
 
-Inkdrop's UI elements are styled based on [Semantic UI](http://semantic-ui.com/).
-It's mostly common in customizing the theme with it, so [their documentation](http://learnsemantic.com/) is very helpful to get started.
+- UI theme for [Inkdrop](https://www.inkdrop.info/).
+- Ported [Night Owl](https://marketplace.visualstudio.com/items?itemName=sdras.night-owl) by Sarah Drasner
+- Modified from the [Inkdrop's default dark UI theme](https://github.com/inkdropapp/inkdrop-default-dark-ui-theme)
 
-Read [the documentation](http://doc.inkdrop.info/manual/creating-a-theme) for detailed instructions.
+## Notes
 
-## Use Node v10
+Could not do exact match versus the VSCode when comparing same file. CodeMirror does not chop all text to enough small pieces that those could be added their own style.
 
-Since Semantic UI is no longer maintained, you have to use Node 10 or you will get errors on installing it.
-You also need to install `gulp-cli`and `gulp` as a local devDependency.
+## Licensing
 
-## How to build
-
-```
-npm install
-gulp build
-```
-
-## Which files to edit
-
-- `src/site/globals/site.variables`
-  - Variables for Inkdrop-specific components
-- `src/site/globals/site.overrides`
-  - Declarations of CSS variables
-- `src/themes/default/globals/site.variables`
-  - Common variables
-- `src/colors.less`
-  - Night Owl color variables
+MIT [LICENSE](https://raw.githubusercontent.com/skipadu/inkdrop-night-owl-ui/master/LICENSE)
