@@ -102,7 +102,7 @@
 @disabledBoxShadow: none;
 
 /* Pressed Down */
-@downBackgroundColor: #BABBBC;
+@downBackgroundColor: @nowl-blue-gray-2;
 @downBackgroundImage: '';
 @downPressedShadow: none;
 @downBoxShadow:

@@ -250,11 +250,11 @@
 @lightBlack       : #545454;
 
 /*---   Neutrals  ---*/
-@fullBlack        : #FFFFFF;
-@offWhite         : #34393D;
-@darkWhite        : #4B5257;
-@midWhite         : #666E74;
-@white            : #2E3235;
+@fullBlack        : @nowl-background;
+@offWhite         : @nowl-blue-dark-1;
+@darkWhite        : @nowl-blue-dark-2;
+@midWhite         : @nowl-blue-dark-3;
+@white            : @nowl-blue-gray-1;
 
 /*--- Colored Backgrounds ---*/
 @redBackground    : #FFE8E6;
