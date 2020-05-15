@@ -26,13 +26,13 @@
 @textTransition: none;
 
 /* Menu */
-@menuBackground: @white;
+@menuBackground: @nowl-background;
 @menuMargin: 0em;
 @menuPadding: 0em 0em;
 @menuTop: 100%;
 @menuTextAlign: left;
 
-@inlineMenuBackground: fade(@white, 70%);
+@inlineMenuBackground: fade(@nowl-background, 70%);
 
 @menuBorderWidth: 1px;
 @menuBorderColor: @borderColor;
