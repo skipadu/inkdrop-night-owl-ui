@@ -1,7 +1,7 @@
 {
   "name": "night-owl-dark-ui",
   "description": "Night Owl dark UI Theme for Inkdrop",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "theme": "ui",
   "styleSheets": [
     "theme.min.css"
