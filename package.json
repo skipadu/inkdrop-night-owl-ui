@@ -27,6 +27,6 @@
     "Electron 7.1.13"
   ],
   "engines": {
-    "inkdrop": "^4.x"
+    "inkdrop": "^5.x"
   }
 }
